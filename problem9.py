@@ -8,7 +8,7 @@ Implement a job scheduler which takes in a function f and an integer n, and call
 from time import sleep
 
 def scheduler(function, ms):
-    sleep(1e-3*ms)
+    sleep(1e-3 * ms)
     function()
     
 def test():
